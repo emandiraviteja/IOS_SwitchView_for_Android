@@ -17,7 +17,7 @@ allprojects {
 ```gradle
 
 dependencies {
-	        implementation 'com.github.emandiraviteja:IOS_SwitchView_for_Android:Tag'
+	        implementation 'com.github.emandiraviteja:IOS_SwitchView_for_Android:1.0'
           }
  ```
 
