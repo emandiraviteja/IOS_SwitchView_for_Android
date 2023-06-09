@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <com.ravlal.ravlaliosswitchview.RavlaliOSSwitchView
+        android:id="@+id/switchView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+
+    <com.ravlal.ravlaliosswitchview.RavlaliOSSwitchView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:color_off="#0000FF"
+        app:color_on="#0000FF" />
+
+</LinearLayout>
